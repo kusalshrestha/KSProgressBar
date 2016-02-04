@@ -17,8 +17,8 @@ class KSViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        progressView = KSProgressView(frame: self.progressPlaceholder.bounds)
-        progressView.numberOfSteps = 5
+        progressView = KSProgressView(frame: self.progressPlaceholder.bounds, color: UIColor.redColor())
+        progressView.numberOfSteps = 4
         self.progressPlaceholder.addSubview(progressView)
     }
 

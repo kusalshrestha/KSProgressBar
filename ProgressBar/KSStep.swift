@@ -88,7 +88,7 @@ class KSStep: UIView {
     
     func animateStep() {
         self.frontCircleShape.strokeColor = self.progressColor.CGColor
-        self.frontCircleShape.animateWithDuration(1, keypath: "strokeEnd", animation: { (anim) in
+        self.frontCircleShape.animateWithDuration(0.5, keypath: "strokeEnd", animation: { (anim) in
             anim.fromValue = 0
             anim.toValue = 1
             }) { _ in
@@ -105,7 +105,7 @@ class KSStep: UIView {
     func animateLine(animationCompletion: ((Bool) -> Void)?, lineWidth: CGFloat) {
         self.frontLineShape.backgroundColor = self.progressColor.CGColor
         self.frontLineShape.bounds = CGRect(origin: CGPointZero, size: CGSize(width: lineWidth, height: lineHeight))
-        self.frontLineShape.animateWithDuration(1, keypath: "bounds", animation: { (anim) in
+        self.frontLineShape.animateWithDuration(0.5, keypath: "bounds", animation: { (anim) in
             anim.fromValue = NSValue(CGRect: CGRect(origin: CGPointZero, size: CGSize(width: 0, height: lineHeight)))
             anim.toValue = NSValue(CGRect: CGRect(origin: CGPointZero, size: CGSize(width: lineWidth, height: lineHeight)))
             }) { _ in

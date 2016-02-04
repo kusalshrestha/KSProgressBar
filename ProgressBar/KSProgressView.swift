@@ -17,9 +17,14 @@ class KSProgressView: UIView {
             designProgressView()
         }
     }
+    private var progressColor: UIColor!
     
+    convenience init(frame: CGRect, color: UIColor) {
+        self.init(frame: frame)
+        self.progressColor = color
+    }
     
-    override init(frame: CGRect) {
+    private override init(frame: CGRect) {
         super.init(frame: frame)
         
     }
@@ -36,7 +41,7 @@ class KSProgressView: UIView {
     
     private func designProgressView() {
         for iterator in 0..<numberOfSteps {
-            let step = KSStep(color: UIColor.redColor())
+            let step = KSStep(color: self.progressColor)
             step.stepNumber = iterator
             self.addSubview(step)
             steps.append(step)

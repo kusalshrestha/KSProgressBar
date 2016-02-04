@@ -18,14 +18,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W0w-ci-RUb">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
+                                <rect key="frame" x="0.0" y="200" width="600" height="72"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="ToI-Mg-qye"/>
+                                    <constraint firstAttribute="height" constant="72" id="ToI-Mg-qye"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lnr-rD-dBo">
-                                <rect key="frame" x="283" y="118" width="34" height="30"/>
+                                <rect key="frame" x="283" y="290" width="34" height="30"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v5O-u2-JSI"/>
@@ -34,7 +34,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="W0w-ci-RUb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1qu-0U-Nxq"/>
+                            <constraint firstItem="W0w-ci-RUb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="200" id="1qu-0U-Nxq"/>
                             <constraint firstItem="W0w-ci-RUb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Xob-05-yiX"/>
                             <constraint firstAttribute="trailing" secondItem="W0w-ci-RUb" secondAttribute="trailing" id="dPM-X3-PlC"/>
                             <constraint firstItem="Lnr-rD-dBo" firstAttribute="top" secondItem="W0w-ci-RUb" secondAttribute="bottom" constant="18" id="lUR-jn-MLS"/>
@@ -47,6 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="240"/>
         </scene>
     </scenes>
 </document>
