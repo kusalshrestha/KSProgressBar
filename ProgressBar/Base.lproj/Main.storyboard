@@ -25,8 +25,8 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lnr-rD-dBo">
-                                <rect key="frame" x="277" y="118" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="283" y="118" width="34" height="30"/>
+                                <state key="normal" title="Start"/>
                                 <connections>
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v5O-u2-JSI"/>
                                 </connections>
@@ -47,47 +47,6 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="ils-LB-sdJ">
-            <objects>
-                <viewController id="UF7-qK-I3W" customClass="ViewController" customModule="ProgressBar" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="T1u-8f-fkV"/>
-                        <viewControllerLayoutGuide type="bottom" id="keG-XJ-99i"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="emG-tU-nsb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="0jG-k1-ZiF">
-                                <rect key="frame" x="20" y="299" width="560" height="2"/>
-                            </progressView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Azr-19-o89">
-                                <rect key="frame" x="277" y="318" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="progressAction:" destination="UF7-qK-I3W" eventType="touchUpInside" id="xCb-RV-1d6"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="0jG-k1-ZiF" secondAttribute="trailing" constant="20" id="Gzw-hn-Pxc"/>
-                            <constraint firstItem="0jG-k1-ZiF" firstAttribute="centerX" secondItem="emG-tU-nsb" secondAttribute="centerX" id="gC6-WT-9PA"/>
-                            <constraint firstItem="0jG-k1-ZiF" firstAttribute="centerY" secondItem="emG-tU-nsb" secondAttribute="centerY" id="lNC-d3-KH6"/>
-                            <constraint firstItem="Azr-19-o89" firstAttribute="top" secondItem="0jG-k1-ZiF" secondAttribute="bottom" constant="17" id="qZd-gv-l0N"/>
-                            <constraint firstItem="0jG-k1-ZiF" firstAttribute="leading" secondItem="emG-tU-nsb" secondAttribute="leading" constant="20" id="thS-uN-xfP"/>
-                            <constraint firstItem="Azr-19-o89" firstAttribute="centerX" secondItem="emG-tU-nsb" secondAttribute="centerX" id="zmH-ca-D16"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="progressView" destination="0jG-k1-ZiF" id="kEz-e7-c2I"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sVj-ya-pBQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="235" y="943"/>
         </scene>
     </scenes>
 </document>

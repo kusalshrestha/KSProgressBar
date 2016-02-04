@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		940272F31C62412E00D64FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940272F21C62412E00D64FB1 /* ViewController.swift */; };
 		947F6EF61C560AC90080B597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947F6EF51C560AC90080B597 /* AppDelegate.swift */; };
 		947F6EF81C560AC90080B597 /* KSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947F6EF71C560AC90080B597 /* KSViewController.swift */; };
 		947F6EFB1C560AC90080B597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947F6EF91C560AC90080B597 /* Main.storyboard */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		940272F21C62412E00D64FB1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		947F6EF21C560AC90080B597 /* ProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		947F6EF51C560AC90080B597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		947F6EF71C560AC90080B597 /* KSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSViewController.swift; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 				947F6F251C560B350080B597 /* KSStep.swift */,
 				947F6F271C5635010080B597 /* Utility.swift */,
 				947F6EF91C560AC90080B597 /* Main.storyboard */,
-				940272F21C62412E00D64FB1 /* ViewController.swift */,
 				947F6EFC1C560AC90080B597 /* Assets.xcassets */,
 				947F6EFE1C560AC90080B597 /* LaunchScreen.storyboard */,
 				947F6F011C560AC90080B597 /* Info.plist */,
@@ -269,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940272F31C62412E00D64FB1 /* ViewController.swift in Sources */,
 				947F6F281C5635010080B597 /* Utility.swift in Sources */,
 				947F6EF81C560AC90080B597 /* KSViewController.swift in Sources */,
 				947F6F261C560B350080B597 /* KSStep.swift in Sources */,
